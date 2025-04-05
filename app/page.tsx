@@ -100,20 +100,23 @@ export default function Home() {
         whileInView="show"
         viewport={{ once: true }}
         variants={fadeIn}
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-40 text-center"
+        className="relative w-full mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-40 text-center bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat rounded-xl shadow-lg"
       >
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">PromptGuardian</h1>
-        <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8">
-          Your real-time AI firewall for secure and reliable LLM applications. Detect, explain, and fix prompt injections instantly.
-        </p>
-        <div className="flex gap-4 justify-center">
-          <Link href="https://localhost:3000" target="_blank">
-            <Button size="lg" className="gap-2">
-              Try PromptGuardian <ExternalLink className="h-6 w-6" />
-            </Button>
-          </Link>
+        <div className="bg-white/60 backdrop-blur-sm p-8 rounded-xl">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">PromptGuardian</h1>
+          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-8">
+            Your real-time AI firewall for secure and reliable LLM applications. Detect, explain, and fix prompt injections instantly.
+          </p>
+          <div className="flex gap-4 justify-center">
+            <Link href="https://localhost:3000" target="_blank">
+              <Button size="lg" className="gap-2">
+                Try PromptGuardian <ExternalLink className="h-6 w-6" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </motion.div>
+
 
       {/* Core Features */}
       <section className="py-24 bg-gray-200">
