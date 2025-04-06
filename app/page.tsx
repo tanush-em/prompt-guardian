@@ -108,7 +108,7 @@ export default function Home() {
             Your real-time AI firewall for secure and reliable LLM applications. Detect, explain, and fix prompt injections instantly.
           </p>
           <div className="flex gap-4 justify-center">
-            <Link href="https://localhost:8502" target="_blank">
+            <Link href="https://d09eha-promptguardx-promptguardian-pro-mf75oh.streamlit.app/" target="_blank">
               <Button size="lg" className="gap-2">
                 Try PromptGuardian <ExternalLink className="h-6 w-6" />
               </Button>
@@ -216,7 +216,7 @@ export default function Home() {
       <section className="bg-primary text-primary-foreground py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Secure Your AI Applications?</h2>
-          <Link href="https://localhost:8502" target="_blank">
+          <Link href="https://d09eha-promptguardx-promptguardian-pro-mf75oh.streamlit.app/" target="_blank">
             <Button variant="secondary" size="lg" className="gap-2">
               Get Started Now <ChevronRight className="h-4 w-4" />
             </Button>
