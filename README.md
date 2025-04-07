@@ -1,4 +1,4 @@
-# 🛡️ Prompt GuardX
+# 🛡️ Prompt Guardian
 
 Real-Time AI Firewall for Prompt Injection & Jailbreak Defense
 
@@ -28,47 +28,9 @@ Current solutions rely on static filters that can't detect context-aware attacks
 - **📊 Threat Logging**: Provides developer-friendly explanations
 - **🔐 PII Redaction**: Protects sensitive user information
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- OpenAI API key
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/promptguardX.git
-cd promptguardian-pro
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Create a `.env` file with your cohere key:
-```
-COHERE_API_KEY=your_cohere_api_key_here
-```
-
-5. Run the application:
-```bash
-streamlit run app.py
-```
-
 ## 📽 Demo
 [Click to watch the demo](https://github.com/D09EHA/promptguardX/blob/main/demo1.mp4)
 
-
-COHERE_API_KEY
 
 ## 🧰 Tech Stack
 
@@ -85,13 +47,3 @@ COHERE_API_KEY
 - Integration with popular AI frameworks
 - Real-time attack pattern learning
 - Dashboard for security metrics
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 🙏 Acknowledgements
-
-- cohere
-- Streamlit for the UI framework
-- All contributors and hackathon organizers
